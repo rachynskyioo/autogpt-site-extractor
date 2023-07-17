@@ -1,0 +1,21 @@
+continuous: False
+continuous_limit:
+ai_settings:
+prompt_settings:
+skip_reprompt: False
+speak: False
+debug: False
+gpt3only: False
+gpt4only: False
+memory_type:
+browser_name:
+allow_downloads: False
+skip_news: False
+workspace_directory:
+install_plugin_deps: False
+ai_name: "Web site information extracter"
+ai_role: "By the given web site link get the information about company's goals, C-level staff and related people, and general information. Write everything in txt file."
+ai_goals:
+  - "Write the goals of the company from the web-site {link}."
+  - "Write about mentioned people and the C-level staff on the web-site {link}."
+  - "Write general information about the company from the web-site {link}."
